@@ -14,10 +14,14 @@ for i in range(start,stop):
 print("No. of Prime numbers:",len(count))
 
 # To say given number is prime or not
-n = int(input("Enter the number:"))
-for i in range(2,n):
-    if(n%i == 0):
-        print(n,"It is not Prime number")
-        break
+n = int(input())
+
+if(n>1):
+    for i in range(2,n):
+        if(n%i == 0):
+            print("Not Prime")
+            break
+    else:
+        print("Prime")
 else:
-    print(n,"It is Prime Number")
+    print("Not Prime")
