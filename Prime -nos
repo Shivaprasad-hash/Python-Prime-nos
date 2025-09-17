@@ -11,7 +11,7 @@ for i in range(a,b+1):
     if(count == 2):
         res += [i]
 print(res)
-
+--------------------------------------------------------------------------------------------
 # To say given number is prime or not
 n = int(input())
 
@@ -24,7 +24,7 @@ if(n>1):
         print("Prime")
 else:
     print("Not Prime")
-
+------------------------------------------------------------------------------------------------
 
 #To print n prime numbers
 n = 10
